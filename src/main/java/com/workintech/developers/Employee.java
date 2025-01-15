@@ -10,15 +10,15 @@ public class Employee {
         this.salary= salary;
 
     }
-    public long getId() {
-        super.id=this.id;
-
-
+    public void work(){
+        System.out.println("Employee starts to working");
     }
-
-    public void setId(long id ) {
-       this.id= id;
+    public long getId(){
+        return id;
     }
+  public void setId(long id){
+        this.id=id;
+  }
 
     public String getName() {
        return this.name;
